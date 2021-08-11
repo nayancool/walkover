@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <title>My Page</title>
 </head>
 <body>
     <h1>Bakery</h1>
-    <h2>Heading 2</h2>
+    
+   
+        <div class="frame">
+        <img class="Start" src="./images/cake2.jpg">
+        </div>
+   
+    <div class="para">
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <hr>
+</div>
+    <h2>Menu</h2>
     <ol>
         <li>
             Cake
@@ -20,18 +33,53 @@
         </ul>
         </li>
         <li>Biscuits</li>
+        <li>Pastries</li>
+        <li>Beverages</li>
     </ol>
+    <div class="Menu_pics">
+        <div class="col">
+            <figure>
+                <img src="./images/cake1.jpg" height="200">
+                <figcaption>Cake</figcaption>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <img src="./images/biscuit.jpg" height="200">
+                <figcaption>biscuit</figcaption>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <img src="./images/pastry.jpg" height="200">
+                <figcaption>pastry</figcaption>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <img src="./images/coffee.jpg" height="200">
+                <figcaption>beverages</figcaption>
+            </figure>
+        </div>
+    </div>
+    <hr>
     <a href="#">Bakery Page</a>
     <br>
-    <form>
-        <label for="Name">Name</label>
-        <input type="text">
-        <br>
-        <label for="email">Email</label>
-        <input type="email">
-        <input type="submit" value="submit">
-        
-
-    </form>
+    <div class="bottom">
+        <form>
+            <label for="Name">Name</label>
+            <input type="text">
+            <br>
+            <label for="email">Email</label>
+            <input type="email">
+            <input type="submit" value="submit">
+            
+    
+        </form>
+        <a class="footer-link" href="#b">Linkedin</a>
+    <a class="footer-link" href="#">Twitter</a>
+        <p class="copyright">© 2021 Nayan ku. Singh</p>
+    </div>
+   
 </body>
 </html>

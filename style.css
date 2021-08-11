@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+
+.frame{
+
+    width: 80%;
+   height: auto;
+   border: 2px solid rgb(3, 2, 2);
+   background: rgb(209, 129, 38);
+   margin: auto;
+   padding: 20px 5px;
+}
+.Start{
+    width: 100%;
+    height: 100%;
+}
+.para{
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Style Script', cursive;
+    font-size: larger;
+    
+}
+h2{
+    font-size: xx-large;
+    text-align: center;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+}
+
+.col{
+    float: left;
+    height: 25%;
+    width:25%;
+    height: auto;
+    
+}
+a{
+    text-align: center;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #010505;
+  }
+.bottom{
+    background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
