@@ -1,91 +1,167 @@
-body{
-    margin: 0;
-  text-align: auto;
-  font-family: 'Merriweather', serif;
-    background-color: #66BFBF;
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
-h1{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 0;
-    font-family: 'Sacramento', cursive;
-    margin: 50px auto 0 auto;
-    font-size: 5.625rem;
-    color: #66BFBF;
-}
-nav{
-    width: 80%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    background-color: #E4F9F5;
-    margin: 0 auto;
-}
-.nav{
-    width: 100%;
-      height: 100%;
-      background-color: #E4F9F5;
-  }
-  .nav-link{
-    margin-left: 80px;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 14px;
-      color: #66BFBF;
-      opacity: .6;
-      font-weight: 700;
-      letter-spacing: 4px;
-  }
-  .nav-link:hover{
-    color: black;
-  }
-
-.frame{
-
-    width: 80%;
-   height: auto;
-   border: 2px solid rgb(3, 2, 2);
-   background: rgb(209, 129, 38);
-   margin: auto;
-   padding: 20px 5px;
-}
-.Start{
-    width: 100%;
-    height: 100%;
-}
-.para{
-    text-align: center;
-    font-style: oblique;
-    font-family: 'Style Script', cursive;
-    font-size: larger;
-    
-}
-h2{
-    font-size: xx-large;
-    text-align: center;
-    color: #66BFBF;
-    font-family: 'Sacramento', cursive;
+.main{
+	display: flex;
 }
 
-.col{
-    float: left;
-    height: 25%;
-    width:25%;
-    height: auto;
-    
+.box1{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	background-color: orange;
+	width: 30%;
+	height: 75vh;
+	margin: 2em;
 }
-a{
-    text-align: center;
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-  }
-  a:hover{
-    color: #010505;
-  }
-.bottom{
-    background-color: #66BFBF;
-  padding: 50px 0 20px;
+
+
+.box2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: orange;
+	width: 30%;
+	height: 75vh;
+	margin: 2em;
+}
+.box3{
+	background-color:cyan;
+	width: 30%;
+	height: 75vh;
+	margin: 2em;
+}
+.inner-box1{
+	background-color: cyan;
+	width: 90%;
+	height: 47%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+input{
+	display: block;
+	height: 30px;
+	margin: 1em;
+	width: 100%;
+	border-radius: 20px;
+	text-align: center;
+	border:none;
+}
+#smtbtn{
+	width: 50%;
+	background-color: crimson;
+	color:white;
+}
+.inner-box2{
+	background-color: cyan;
+	width:95%;
+	height: 47%;
+	margin: 1em;
+	text-align: center;
+}
+.inner-box20{
+	display: flex;
+	justify-content: space-around;
+	background-color: orange;
+	width:95%;
+	height: 47%;
+	margin: 1em;
+	text-align: center;
+
+}
+.inner-box20-child{
+	background-color: cyan;
+	width: 45%;
+	height: 95%;
+
+}
+.square1{
+	background-color: cyan;
+	width: 47%;
+	height: 47%;
+	display: inline-block;
+	border: 20px solid orange;
+}
+.square2{
+	background-color: cyan;
+	width: 48%;
+	height: 48%;
+	display: inline-block;
+}
+.square3{
+	background-color: cyan;
+	width: 48%;
+	height: 48%;
+	display: inline-block;
+}
+.square4{
+	background-color: cyan;
+	width: 47%;
+	height: 47%;
+	display: inline-block;
+	border: 20px solid orange;
+}
+
+
+
+
+
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 18.5%;
+  left: 77.25%;
+  max-width: 50px;
+  width: 100%;
+  font-size: 17px;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: black;
+  padding: 1px;
+  border-radius: 8px;
+
+}
+
+#myBtn:hover {
+  background-color: #7dbbf1;
+}
+
+@media screen and (max-width:768px){
+	.main{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.box1{
+		width: 80vw;
+	}
+	.box2{
+		width: 80vw;
+	}
+	.box3{
+		width: 80vw;
+	}
+	.inner-box20{
+		flex-direction: column;
+	}
+	.inner-box20-child{
+		width: 98%;
+		height: 45%;
+	}
+}
+
+.list{
+	text-align: center;
+	list-style-position: inside;
 }
